@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: decision-log-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/decision_log
+    username: postgres
+    password: 5432
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+  flyway:
+    enabled: true
